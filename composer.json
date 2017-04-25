@@ -2,8 +2,15 @@
     "name": "jsnlib/ci3",
     "type": "project",
     "require": {
+        "php": ">=7.0.9",
         "jsnlib/jsnlib": "*",
         "jsnlib/translg": "*",
         "jsnlib/assesbox": "*"
+    },
+    "autoload": {
+        "classmap": [
+            "application/libraries",
+            "application/models"
+        ]
     }
 }
