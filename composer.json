@@ -5,7 +5,8 @@
         "php": ">=7.0.9",
         "jsnlib/jsnlib": "^2.1",
         "jsnlib/translg": "^1.0",
-        "jsnlib/assesbox": "^1.1"
+        "jsnlib/assesbox": "^1.1",
+        "jsnlib/restful_client": "^1.0"
     },
     "autoload": {
         "classmap": [
