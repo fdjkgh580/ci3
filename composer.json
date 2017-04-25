@@ -11,8 +11,7 @@
     "autoload": {
         "classmap": [
             "application/libraries",
-            "application/models",
-            "application/helpers"
+            "application/models"
         ]
     }
 }
