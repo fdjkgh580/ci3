@@ -1,0 +1,9 @@
+{
+    "name": "jsnlib/ci3",
+    "type": "project",
+    "require": {
+        "jsnlib/jsnlib": "*",
+        "jsnlib/translg": "*",
+        "jsnlib/assesbox": "*"
+    }
+}
