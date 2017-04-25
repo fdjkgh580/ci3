@@ -1,5 +1,6 @@
-composer install
-    Jsnlib/....
+composer require jsnlib/jsnlib
+composer require jsnlib/translg
+composer require jsnlib/assesbox
 
 install "chriskacerguis/codeigniter-restserver"
     drop config/rest.php
