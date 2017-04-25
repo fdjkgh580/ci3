@@ -1,6 +1,7 @@
 {
     "name": "jsnlib/ci3",
     "type": "project",
+    "license": "MIT",
     "require": {
         "php": ">=7.0.9",
         "jsnlib/jsnlib": "^2.1",
