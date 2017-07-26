@@ -1,18 +1,22 @@
 {
     "name": "jsnlib/ci3",
-    "type": "project",
-    "license": "MIT",
-    "require": {
+	"type": "project",
+	"license": "MIT",
+	"require": {
         "php": ">=7.0.9",
         "jsnlib/jsnlib": "^2.1",
         "jsnlib/translg": "^1.0",
         "jsnlib/assesbox": "^1.1",
         "jsnlib/restful_client": "^1.0"
     },
-    "autoload": {
-        "classmap": [
-            "application/libraries",
-            "application/models"
-        ]
-    }
+	"autoload": {
+		"psr-4": {
+			"Model\\": "application/models",
+			"Lib\\": "application/libraries"
+		},
+		"files": [""],
+		"classmap": [
+			"application/libraries"
+		]
+	}
 }
