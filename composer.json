@@ -7,7 +7,8 @@
         "jsnlib/jsnlib": "^2.1",
         "jsnlib/translg": "^1.0",
         "jsnlib/assesbox": "^1.1",
-        "jsnlib/restful_client": "^1.0"
+        "jsnlib/restful_client": "^1.0",
+        "jsnlib/checksum": "^1.0.1"
     },
 	"autoload": {
 		"psr-4": {
