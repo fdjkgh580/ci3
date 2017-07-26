@@ -3,7 +3,7 @@
 	"type": "project",
 	"license": "MIT",
 	"require": {
-        "php": ">=7.0.9",
+        "php": ">=7.1.0",
         "jsnlib/jsnlib": "^2.1",
         "jsnlib/translg": "^1.0",
         "jsnlib/assesbox": "^1.1",
@@ -14,7 +14,7 @@
 			"Model\\": "application/models",
 			"Lib\\": "application/libraries"
 		},
-		"files": [""],
+		"files": [],
 		"classmap": [
 			"application/libraries"
 		]

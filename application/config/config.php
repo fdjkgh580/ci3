@@ -23,7 +23,39 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = '';
+
+// 允許多筆通過的網域
+$allowed_domains = ['localhost']; 
+
+// 當偵測到非上述的例外狀況，會被導向到的網域
+$default_domain  = 'localhost';
+
+if (in_array($_SERVER['HTTP_HOST'], $allowed_domains, TRUE))
+{
+    if ($_SERVER['HTTP_HOST'] == "localhost") 
+    {
+        // 如果放在網域底下的路徑如 http://localhost/test 那請填入
+        // $_SERVER['HTTP_HOST'] . "/test"
+        $domain = $_SERVER['HTTP_HOST'] . "";
+    }
+    else 
+    {
+        $domain = $_SERVER['HTTP_HOST'];
+    }
+}
+else
+{
+    $domain = $default_domain;
+}
+
+if ( ! empty($_SERVER['HTTPS']))
+{
+    $config['base_url'] = 'https://'.$domain;
+}
+else
+{
+    $config['base_url'] = 'http://'.$domain;
+}
 
 /*
 |--------------------------------------------------------------------------
