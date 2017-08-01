@@ -1,0 +1,475 @@
+[
+    {
+        "name": "jsnlib/assesbox",
+        "version": "1.1",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/fdjkgh580/assesbox.git",
+            "reference": "33269d368ed299cbb7f3a7d15ebab69661e552fb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/fdjkgh580/assesbox/zipball/33269d368ed299cbb7f3a7d15ebab69661e552fb",
+            "reference": "33269d368ed299cbb7f3a7d15ebab69661e552fb",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.4"
+        },
+        "time": "2016-12-08T03:12:48+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "Assesbox"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "assesbox",
+        "homepage": "https://github.com/fdjkgh580/assesbox",
+        "keywords": [
+            "assesbox"
+        ]
+    },
+    {
+        "name": "jsnlib/jsnlib",
+        "version": "2.1.0",
+        "version_normalized": "2.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/fdjkgh580/jsnlib.git",
+            "reference": "fe489e07a1fa247d954813347b45aa9ce60b9dc9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/fdjkgh580/jsnlib/zipball/fe489e07a1fa247d954813347b45aa9ce60b9dc9",
+            "reference": "fe489e07a1fa247d954813347b45aa9ce60b9dc9",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4"
+        },
+        "time": "2017-04-21T02:04:44+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "Ao",
+                "Cart",
+                "Copy",
+                "Del",
+                "Db",
+                "Edit",
+                "Export",
+                "Filelink",
+                "Group",
+                "Hash",
+                "Pdo",
+                "Popcount",
+                "Rand",
+                "Seq",
+                "Taiwan",
+                "Upload",
+                "UploadImageBase64"
+            ],
+            "files": [
+                "Function.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "類別庫",
+        "homepage": "https://github.com/fdjkgh580/jsnlib",
+        "keywords": [
+            "library"
+        ]
+    },
+    {
+        "name": "jsnlib/translg",
+        "version": "1.0.2",
+        "version_normalized": "1.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/fdjkgh580/translg.git",
+            "reference": "94e8651980af90fb1602ca80f1a607554e33beaf"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/fdjkgh580/translg/zipball/94e8651980af90fb1602ca80f1a607554e33beaf",
+            "reference": "94e8651980af90fb1602ca80f1a607554e33beaf",
+            "shasum": ""
+        },
+        "require": {
+            "jsnlib/jsnlib": ">=2.0.0",
+            "php": ">=5.2.4"
+        },
+        "time": "2017-04-21T02:15:29+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "Translg"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Codeigniter 簡單轉換多國語言",
+        "homepage": "https://github.com/fdjkgh580/translg",
+        "keywords": [
+            "codeigniter",
+            "jsnlib",
+            "language",
+            "library"
+        ]
+    },
+    {
+        "name": "guzzlehttp/promises",
+        "version": "v1.3.1",
+        "version_normalized": "1.3.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/guzzle/promises.git",
+            "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/guzzle/promises/zipball/a59da6cf61d80060647ff4d3eb2c03a2bc694646",
+            "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^4.0"
+        },
+        "time": "2016-12-20T10:07:11+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "GuzzleHttp\\Promise\\": "src/"
+            },
+            "files": [
+                "src/functions_include.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Dowling",
+                "email": "mtdowling@gmail.com",
+                "homepage": "https://github.com/mtdowling"
+            }
+        ],
+        "description": "Guzzle promises library",
+        "keywords": [
+            "promise"
+        ]
+    },
+    {
+        "name": "psr/http-message",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/http-message.git",
+            "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+            "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2016-08-06T14:39:51+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Http\\Message\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for HTTP messages",
+        "homepage": "https://github.com/php-fig/http-message",
+        "keywords": [
+            "http",
+            "http-message",
+            "psr",
+            "psr-7",
+            "request",
+            "response"
+        ]
+    },
+    {
+        "name": "guzzlehttp/psr7",
+        "version": "1.4.2",
+        "version_normalized": "1.4.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/guzzle/psr7.git",
+            "reference": "f5b8a8512e2b58b0071a7280e39f14f72e05d87c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/guzzle/psr7/zipball/f5b8a8512e2b58b0071a7280e39f14f72e05d87c",
+            "reference": "f5b8a8512e2b58b0071a7280e39f14f72e05d87c",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0",
+            "psr/http-message": "~1.0"
+        },
+        "provide": {
+            "psr/http-message-implementation": "1.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.0"
+        },
+        "time": "2017-03-20T17:10:46+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "GuzzleHttp\\Psr7\\": "src/"
+            },
+            "files": [
+                "src/functions_include.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Dowling",
+                "email": "mtdowling@gmail.com",
+                "homepage": "https://github.com/mtdowling"
+            },
+            {
+                "name": "Tobias Schultze",
+                "homepage": "https://github.com/Tobion"
+            }
+        ],
+        "description": "PSR-7 message implementation that also provides common utility methods",
+        "keywords": [
+            "http",
+            "message",
+            "request",
+            "response",
+            "stream",
+            "uri",
+            "url"
+        ]
+    },
+    {
+        "name": "guzzlehttp/guzzle",
+        "version": "6.3.0",
+        "version_normalized": "6.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/guzzle/guzzle.git",
+            "reference": "f4db5a78a5ea468d4831de7f0bf9d9415e348699"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/guzzle/guzzle/zipball/f4db5a78a5ea468d4831de7f0bf9d9415e348699",
+            "reference": "f4db5a78a5ea468d4831de7f0bf9d9415e348699",
+            "shasum": ""
+        },
+        "require": {
+            "guzzlehttp/promises": "^1.0",
+            "guzzlehttp/psr7": "^1.4",
+            "php": ">=5.5"
+        },
+        "require-dev": {
+            "ext-curl": "*",
+            "phpunit/phpunit": "^4.0 || ^5.0",
+            "psr/log": "^1.0"
+        },
+        "suggest": {
+            "psr/log": "Required for using the Log middleware"
+        },
+        "time": "2017-06-22T18:50:49+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "6.2-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src/functions_include.php"
+            ],
+            "psr-4": {
+                "GuzzleHttp\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Dowling",
+                "email": "mtdowling@gmail.com",
+                "homepage": "https://github.com/mtdowling"
+            }
+        ],
+        "description": "Guzzle is a PHP HTTP client library",
+        "homepage": "http://guzzlephp.org/",
+        "keywords": [
+            "client",
+            "curl",
+            "framework",
+            "http",
+            "http client",
+            "rest",
+            "web service"
+        ]
+    },
+    {
+        "name": "jsnlib/restful_client",
+        "version": "1.0.2",
+        "version_normalized": "1.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/fdjkgh580/restful_client.git",
+            "reference": "628cf2dc458eb1015bf5c181451ca728453a859a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/fdjkgh580/restful_client/zipball/628cf2dc458eb1015bf5c181451ca728453a859a",
+            "reference": "628cf2dc458eb1015bf5c181451ca728453a859a",
+            "shasum": ""
+        },
+        "require": {
+            "guzzlehttp/guzzle": "^6.2",
+            "jsnlib/jsnlib": "^2.1",
+            "php": ">=7.0"
+        },
+        "time": "2017-04-25T08:35:42+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "Client.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "homepage": "https://github.com/fdjkgh580/restful_client",
+        "keywords": [
+            "library"
+        ]
+    },
+    {
+        "name": "jsnlib/checksum",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/fdjkgh580/checksum.git",
+            "reference": "c0cc3340dafa7126cc74d1dd5cf47c1762844ee8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/fdjkgh580/checksum/zipball/c0cc3340dafa7126cc74d1dd5cf47c1762844ee8",
+            "reference": "c0cc3340dafa7126cc74d1dd5cf47c1762844ee8",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.0.9"
+        },
+        "require-dev": {
+            "guzzlehttp/guzzle": "~6.0"
+        },
+        "time": "2017-06-21T06:08:26+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Jsnlib\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "產生校驗碼，可連同參數夾帶，在服務端 (server) 驗證參數是否被修改。",
+        "keywords": [
+            "library"
+        ]
+    },
+    {
+        "name": "jsnlib/rest_controller",
+        "version": "1.0.3",
+        "version_normalized": "1.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/fdjkgh580/rest_controller.git",
+            "reference": "76579573b4911e6a09410eacaa0a6c471492eebe"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/fdjkgh580/rest_controller/zipball/76579573b4911e6a09410eacaa0a6c471492eebe",
+            "reference": "76579573b4911e6a09410eacaa0a6c471492eebe",
+            "shasum": ""
+        },
+        "time": "2017-07-26T09:09:02+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Jsnlib\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ]
+    }
+]

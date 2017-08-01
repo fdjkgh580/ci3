@@ -1,0 +1,18 @@
+{
+    "name": "jsnlib/checksum",
+    "type": "library",
+    "description": "產生校驗碼，可連同參數夾帶，在服務端 (server) 驗證參數是否被修改。",
+    "keywords": ["library"],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.0.9"
+    },
+    "require-dev": {
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jsnlib\\": "src"
+        }
+    }
+}
