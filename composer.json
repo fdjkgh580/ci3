@@ -9,7 +9,11 @@
         "jsnlib/assesbox": "^1.1",
         "jsnlib/restful_client": "^1.0",
         "jsnlib/rest_controller": "^1.0.2",
-        "jsnlib/checksum": "^1.0.1"
+        "jsnlib/checksum": "^1.0.1",
+        "jsnlib/token": "^1.0.0",
+        "jsnlib/validation": "^1.0.0",
+        "jsnlib/codeigniter_unit_test_report": "^1.0.3",
+        "jsnlib/swoole": "^1.1.0"
     },
 	"autoload": {
 		"psr-4": {
